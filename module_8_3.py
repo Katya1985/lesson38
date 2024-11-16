@@ -1,12 +1,3 @@
-# class Car:
-#     def __init__(self, model, vin, numbers):
-#         self.model = model  # название автомобиля (строка)
-#         # if self.__is_valid_vin(_vin) and self.__is_valid_numbers(__numbers):
-#         self._vin = _vin  # vin номер автомобиля (целое число)
-#         self.__numbers = __numbers  # номера автомобиля (строка)
-#         self.__is_valid_vin(_vin)
-#         self.__is_valid_numbers(__numbers)
-
 class Car:
     def __init__(self, model, vin, numbers):
         self.model = model      # название автомобиля (строка)
